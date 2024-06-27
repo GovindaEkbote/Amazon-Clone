@@ -1,0 +1,25 @@
+FrontEnd:-  npm start
+BackEnd:- node index.js
+Admin:-   npm run dev
+
+echo "# Amazon-Clone" >> README.md
+
+1.git init
+
+2.git add .
+
+3.git commit -m "Amazon clone"
+
+4.git branch -M main
+
+5.git remote add origin https://github.com/GovindaEkbote/Amazon-Clone.git
+
+6.git push -u origin main
+
+-----------------------------
+git remote add origin https://github.com/GovindaEkbote/Amazon-Clone.git
+git branch -M main
+git push -u origin main
+
+--------------------------------
+Link: https://github.com/GovindaEkbote/Amazon-Clone.git
