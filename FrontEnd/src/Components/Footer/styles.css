@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2, h3, p {
+    margin: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    text-align: left;
+    line-height: 200%;
+  }
+  
+  .container img {
+    width: 30%;
+    height: 20%;
+    margin-top: 5%;
+  }
+  
+  
+  .reveal {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+  }
+  
+  .comm {
+    width: 100%;
+    background: rgb(247, 189, 189);
+    height: 2%;
+    padding: 0.5%;
+  }
+  
+  #comm1 {
+    width: 0%;
+    height: 100%;
+    background: rgb(255, 23, 23);
+    transition: all 5s ease;
+  }
+  
+  #comm2 {
+    width: 0%;
+    height: 100%;
+    background: rgb(241, 44, 44);
+    transition: all 5s ease;
+  }
+  
+  #comm3 {
+    width: 0%;
+    height: 100%;
+    background: rgb(250, 61, 61);
+    transition: all 5s ease;
+  }
+  
+  #fourth_cards, #third_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #fourth_cards div, #third_cards div {
+    max-width: 200px;
+    text-align: center;
+    margin: 10px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  #fourth_cards img, #third_cards img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+  }
+  
+  #head {
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
